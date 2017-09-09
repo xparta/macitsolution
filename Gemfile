@@ -35,9 +35,11 @@ group :development do
   gem 'better_errors'
   gem 'rails_layout'
 end
-group :development, :test do
+group :development do
   gem 'sqlite3'
 end
+
 group :production do
   gem 'pg'
 end
+gem 'rails_12factor', group: :production
