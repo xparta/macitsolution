@@ -4,8 +4,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 ruby '2.4.0'
-gem 'rails', '~> 4.0.0'
-gem 'puma', '~> 2.1'
+gem 'rails', '~> 5.1.4'
+gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -35,10 +35,6 @@ group :development do
   gem 'better_errors'
   gem 'rails_layout'
 end
-group :development do
-  gem 'sqlite3'
-end
-
 group :production do
   gem 'pg'
 end
