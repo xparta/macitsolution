@@ -251,6 +251,7 @@ DEPENDENCIES
   better_errors
   bootstrap-sass
   bourbon
+  bundler (~> 1.16.0.pre.2)
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
