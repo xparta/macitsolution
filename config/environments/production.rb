@@ -22,7 +22,7 @@ Rails.application.configure do
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
-  config.secret_key_base = ENV['203fd1524cbb63c4e99ff090781d1fe5bcd4970b496b3f5ffd7f0c2d98d2a5b8c673312fa92ac9cea8a762f79e720d954c0faaa387bd57b2555891312285dc17']
+  config.secret_key_base = ENV['5d2b839ea3f2435bf679cce283319a3fde299567a65d01db14589aca40826a0c528f228c893dee92a7acc0ca4074f96614e06740ce189b3ce15df2b81b254a6e']
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
