@@ -57,7 +57,7 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   # Send email in development mode?
   config.action_mailer.perform_deliveries = true
-
+config.secret_key_base: <%= ENV["203fd1524cbb63c4e99ff090781d1fe5bcd4970b496b3f5ffd7f0c2d98d2a5b8c673312fa92ac9cea8a762f79e720d954c0faaa387bd57b2555891312285dc17"] %>
 
   # Suppress logger output for asset requests.
   config.assets.quiet = true
