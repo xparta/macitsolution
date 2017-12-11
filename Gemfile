@@ -32,6 +32,8 @@ gem 'high_voltage'
 gem 'jquery-rails'
 gem 'pundit'
 gem 'therubyracer', :platform=>:ruby
+gem 'twitter'
+
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
